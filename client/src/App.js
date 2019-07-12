@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Details from './details/Details';
 
 function App() {
   return (
@@ -12,13 +13,14 @@ function App() {
         </p>
         <a
           className="App-link"
-          href="http://localhost:3000/api/products"
+          href="http://localhost:3000/Details"
           target="_blank"
           rel="noopener noreferrer"
         >
           SHOP
         </a>
       </header>
+    <Details></Details>
     </div>
   );
 }
